@@ -1,7 +1,9 @@
 import Image from "next/image";
 import React from "react";
 import Link from "next/link";
-import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
+import { AiOutlineClose, AiOutlineMenu, AiOutlineMail } from "react-icons/ai";
+import { FaGithub, FaLinkedinIn } from "react-icons/fa";
+import { BsFillPersonLinesFill } from "react-icons/bs";
 
 const Navbar = () => {
   return (
@@ -58,6 +60,44 @@ const Navbar = () => {
               <p className="w-[85%] md:w-[90%] py-4">
                 temporary placeholder text for the time being
               </p>
+            </div>
+          </div>
+          <div className="py-4 flex flex-col">
+            <ul className="uppercase">
+              <Link href="/">
+                <li className="py-4 text-sm">Home</li>
+              </Link>
+              <Link href="/">
+                <li className="py-4 text-sm">About</li>
+              </Link>
+              <Link href="/">
+                <li className="py-4 text-sm">Skills</li>
+              </Link>
+              <Link href="/">
+                <li className="py-4 text-sm">Projects</li>
+              </Link>
+              <Link href="/">
+                <li className="py-4 text-sm">Content</li>
+              </Link>
+            </ul>
+            <div className="pt-40">
+              <p className="uppcase tracking-widest text-[#5651e5]">
+                Want To Connect?
+              </p>
+              <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
+                <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                  <FaLinkedinIn />
+                </div>
+                <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                  <FaGithub />
+                </div>
+                <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                  <AiOutlineMail />
+                </div>
+                <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                  <BsFillPersonLinesFill />
+                </div>
+              </div>
             </div>
           </div>
         </div>
