@@ -1,4 +1,6 @@
+import Link from "next/link";
 import React from "react";
+import { AiOutlineDown } from "react-icons/ai";
 
 const About = () => {
   return (
@@ -35,9 +37,22 @@ const About = () => {
             technical knowledge, I aim to deliver digital solutions that
             resonate with audiences and drive meaningful results.
           </p>
-          <p className="py-2 text-gray-600 underline cursor-pointer">
-            Here are some of my most recent projects!
-          </p>
+          <h5 className="py-2">Check out my projects below!</h5>
+          <div className="flex justify-left py-2">
+            <Link
+              scroll={false}
+              href="/#projects"
+            >
+              <div>
+                <div className="rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300">
+                  <AiOutlineDown
+                    className="text-[#f0a10e]"
+                    size={30}
+                  />
+                </div>
+              </div>
+            </Link>
+          </div>
         </div>
         <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">
           <img
