@@ -45,7 +45,7 @@ const Navbar = () => {
           <ul className="hidden md:flex">
             <Link
               scroll={false}
-              href="/"
+              href="/#home"
             >
               <li className="ml-10 text-sm uppercase hover:border-b">Home</li>
             </Link>
@@ -100,12 +100,17 @@ const Navbar = () => {
         >
           <div>
             <div className="flex w-full items-center justify-between">
-              <Image
-                src="/../public/assets/joel-logo.png"
-                width={87}
-                height={35}
-                alt="/"
-              />
+              <Link
+                scroll={false}
+                href="/"
+              >
+                <Image
+                  src="/../public/assets/joel-logo.png"
+                  width={87}
+                  height={35}
+                  alt="/"
+                />
+              </Link>
               <div
                 onClick={handleNav}
                 className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer"
@@ -121,20 +126,60 @@ const Navbar = () => {
           </div>
           <div className="py-4 flex flex-col">
             <ul className="uppercase">
-              <Link href="/">
-                <li className="py-4 text-sm">Home</li>
+              <Link
+                scroll={false}
+                href="/#home"
+              >
+                <li
+                  onClick={() => setNav(false)}
+                  className="py-4 text-sm"
+                >
+                  Home
+                </li>
               </Link>
-              <Link href="/">
-                <li className="py-4 text-sm">About</li>
+              <Link
+                scroll={false}
+                href="/#about"
+              >
+                <li
+                  onClick={() => setNav(false)}
+                  className="py-4 text-sm"
+                >
+                  About
+                </li>
               </Link>
-              <Link href="/">
-                <li className="py-4 text-sm">Skills</li>
+              <Link
+                scroll={false}
+                href="/#skills"
+              >
+                <li
+                  onClick={() => setNav(false)}
+                  className="py-4 text-sm"
+                >
+                  Skills
+                </li>
               </Link>
-              <Link href="/">
-                <li className="py-4 text-sm">Projects</li>
+              <Link
+                scroll={false}
+                href="/#projects"
+              >
+                <li
+                  onClick={() => setNav(false)}
+                  className="py-4 text-sm"
+                >
+                  Projects
+                </li>
               </Link>
-              <Link href="/">
-                <li className="py-4 text-sm">Content</li>
+              <Link
+                scroll={false}
+                href="/#contact"
+              >
+                <li
+                  onClick={() => setNav(false)}
+                  className="py-4 text-sm"
+                >
+                  Contact
+                </li>
               </Link>
             </ul>
             <div className="pt-40">
