@@ -11,7 +11,7 @@ function Contact() {
       id="contact"
       className="w-full lg:h-screen"
     >
-      <div className="max-w-[1240px] m-auto px-2 py-16 w-full">
+      <div className="max-w-[1240px] m-auto px-2 py-24 w-full">
         <p className="text-xl tracking-widest uppercase text-[#f0a10e]">
           Contact
         </p>
@@ -37,19 +37,30 @@ function Contact() {
               </div>
               <div>
                 <p className="uppercase pt-8">Connect With Me</p>
-                <div className="flex items-center justify-between py-4">
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                    <FaLinkedinIn />
-                  </div>
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                    <FaGithub />
-                  </div>
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                    <AiOutlineMail />
-                  </div>
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                    <BsFillPersonLinesFill />
-                  </div>
+                <div className="flex items-center justify-left py-4">
+                  <a
+                    href="https://www.linkedin.com/in/joel-hagan/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 mr-8">
+                      <FaLinkedinIn />
+                    </div>
+                  </a>
+                  <a
+                    href="https://github.com/Jagan-creator"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 mr-8">
+                      <FaGithub />
+                    </div>
+                  </a>
+                  <a href="mailto:joel.hagan.8@gmail.com">
+                    <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                      <AiOutlineMail />
+                    </div>
+                  </a>
                 </div>
               </div>
             </div>
@@ -94,10 +105,12 @@ function Contact() {
                   <label className="uppercase text-sm py-2">Message</label>
                   <textarea
                     className="border-2 rounded-lg p-3 border-gray-300"
-                    rows="10"
+                    rows="7"
                   ></textarea>
                 </div>
-                <button className="w-full p-4 text-gray-100 mt-4">Send</button>
+                <button className="w-full p-4 text-gray-100 mt-4 cursor-pointer hover:scale-105 ease-in duration-300">
+                  Send
+                </button>
               </form>
             </div>
           </div>
@@ -107,11 +120,15 @@ function Contact() {
             scroll={false}
             href="/#home"
           >
-            <div className="rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300">
-              <HiOutlineChevronDoubleUp
-                className="text-[#f0a10e]"
-                size={30}
-              />
+            <div className="pt-20">
+              {" "}
+              {/* Add padding above */}
+              <div className="rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300">
+                <HiOutlineChevronDoubleUp
+                  className="text-[#f0a10e]"
+                  size={30}
+                />
+              </div>
             </div>
           </Link>
         </div>
