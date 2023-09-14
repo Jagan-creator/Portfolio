@@ -121,8 +121,6 @@ function Contact() {
             href="/#home"
           >
             <div className="pt-20">
-              {" "}
-              {/* Add padding above */}
               <div className="rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300">
                 <HiOutlineChevronDoubleUp
                   className="text-[#f0a10e]"
