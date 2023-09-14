@@ -26,18 +26,29 @@ const Main = () => {
             users and businesses in the digital world.
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
-            <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-              <FaLinkedinIn />
-            </div>
-            <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-              <FaGithub />
-            </div>
-            <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-              <AiOutlineMail />
-            </div>
-            <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-              <BsFillPersonLinesFill />
-            </div>
+            <a
+              href="https://www.linkedin.com/in/joel-hagan/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 mr-8">
+                <FaLinkedinIn />
+              </div>
+            </a>
+            <a
+              href="https://github.com/Jagan-creator"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 mr-8">
+                <FaGithub />
+              </div>
+            </a>
+            <a href="mailto:joel.hagan.8@gmail.com">
+              <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                <AiOutlineMail />
+              </div>
+            </a>
           </div>
         </div>
       </div>
