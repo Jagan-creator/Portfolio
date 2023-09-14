@@ -33,7 +33,7 @@ function Projects() {
             title="Scheduler"
             backgroundImg={schedulerImg}
             framework="JavaScript / API / Testing"
-            projectUrl="/schedule"
+            projectUrl="/scheduler"
           />
           <ProjectItem
             title="Tweeter"
