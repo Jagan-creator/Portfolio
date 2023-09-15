@@ -136,7 +136,7 @@ const Navbar = () => {
               </Link>
               <div
                 onClick={handleNav}
-                className="rounded-full shadow-md shadow-gray-400 p-3 cursor-pointer"
+                className="rounded-full shadow-md shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-300"
               >
                 <AiOutlineClose />
               </div>
