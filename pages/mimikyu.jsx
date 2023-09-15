@@ -28,32 +28,26 @@ const mimikyu = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Turpis
-            cursus in hac habitasse platea dictumst quisque. Nec ullamcorper sit
-            amet risus nullam eget felis. Consectetur adipiscing elit
-            pellentesque habitant morbi. Egestas tellus rutrum tellus
-            pellentesque eu. Non diam phasellus vestibulum lorem sed. Faucibus a
-            pellentesque sit amet porttitor eget dolor morbi non. Consequat ac
-            felis donec et odio pellentesque diam. Mi tempus imperdiet nulla
-            malesuada pellentesque. A diam sollicitudin tempor id eu nisl nunc
-            mi. Ultrices eros in cursus turpis massa tincidunt dui. Non blandit
-            massa enim nec. Ut enim blandit volutpat maecenas volutpat blandit
-            aliquam etiam. Elementum integer enim neque volutpat ac tincidunt
-            vitae semper quis. Risus ultricies tristique nulla aliquet enim
-            tortor at auctor urna. Molestie ac feugiat sed lectus vestibulum
-            mattis ullamcorper velit. Vivamus at augue eget arcu dictum varius
-            duis. Odio pellentesque diam volutpat commodo sed. Porta nibh
-            venenatis cras sed felis eget velit aliquet sagittis. Quisque
-            egestas diam in arcu cursus euismod quis. Congue eu consequat ac
-            felis donec et. Id porta nibh venenatis cras sed. Eget nunc lobortis
-            mattis aliquam faucibus purus in massa tempor. Libero nunc consequat
-            interdum varius sit. Facilisi nullam vehicula ipsum a. Volutpat
-            consequat mauris nunc congue nisi vitae suscipit tellus mauris.
-            Quisque non tellus orci ac auctor augue. Purus sit amet luctus
-            venenatis. Egestas congue quisque egestas diam. Semper auctor neque
-            vitae tempus quam pellentesque nec. Sed euismod nisi porta lorem
-            mollis.
+            Welcome to Mimikyu's Day Off, our final group project developed at
+            Lighthouse Labs! This Pokemon-themed roguelite-style game invites
+            you to join Mimikyu on a thrilling adventure during his day off,
+            complete with encounters with a clueless thief. In the spirit of
+            roguelite games, each attempt offers new abilities and stat buffs
+            for future runs, making it a unique and challenging experience.
+            Sabrina Wang's art brings this world to life, immersing you in the
+            Pokemon universe. Our dedicated team, including Sabrina Wang, David
+            Sooley, and Joel Hagan, crafted this captivating adventure. The game
+            features a dynamic battle system with various attacks,
+            buffs/debuffs, and healing moves. Customize your loadout by
+            selecting up to 4 moves and unlock more as you progress. Your
+            progress is securely saved, including learned moves, stat upgrades,
+            and achievements, thanks to Auth0 authentication. Enjoy unique
+            touches like dynamic music, a wide array of moves, and a special
+            story ending. Dive into the early development stages and explore our
+            tech stack with React, Node, Next, Prisma, Sass, and Auth0. The game
+            and database are hosted on Vercel, ensuring a seamless gaming
+            experience. Immerse yourself in the world of Mimikyu's Day Off and
+            embark on an exciting journey in the Pokemon universe!
           </p>
           <a
             href="https://mimikyus-day-off.vercel.app/"
