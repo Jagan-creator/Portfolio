@@ -3,6 +3,7 @@ import schedulerImg from "../public/assets/projects/scheduler-preview.png";
 import Image from "next/image";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
+import { IoIosArrowBack } from "react-icons/io";
 
 const scheduler = () => {
   return (
@@ -22,7 +23,7 @@ const scheduler = () => {
         </div>
       </div>
 
-      <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8">
+      <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-3 pt-8">
         <div className="col-span-4">
           <p>Project</p>
           <h2>Overview</h2>
@@ -89,9 +90,21 @@ const scheduler = () => {
             </div>
           </div>
         </div>
-        <Link href="/#projects">
-          <p className="underline cursor-pointer">Back</p>
-        </Link>
+        <div className="flex justify-left">
+          <Link
+            scroll={false}
+            href="/#projects"
+          >
+            <div>
+              <div className="rounded-full shadow-lg shadow-gray-400 p-2 cursor-pointer hover:scale-110 ease-in duration-300">
+                <IoIosArrowBack
+                  className="text-[#f0a10e]"
+                  size={30}
+                />
+              </div>
+            </div>
+          </Link>
+        </div>
       </div>
     </div>
   );
