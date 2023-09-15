@@ -136,7 +136,7 @@ const Navbar = () => {
               </Link>
               <div
                 onClick={handleNav}
-                className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer"
+                className="rounded-full shadow-md shadow-gray-400 p-3 cursor-pointer"
               >
                 <AiOutlineClose />
               </div>
@@ -209,19 +209,30 @@ const Navbar = () => {
               <p className="uppcase tracking-widest text-[#f0a10e]">
                 Want To Connect?
               </p>
-              <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
-                <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <FaLinkedinIn />
-                </div>
-                <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <FaGithub />
-                </div>
-                <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <AiOutlineMail />
-                </div>
-                <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <BsFillPersonLinesFill />
-                </div>
+              <div className="flex items-center justify-left py-4">
+                <a
+                  href="https://www.linkedin.com/in/joel-hagan/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div className="rounded-full shadow-md shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-300 mr-8">
+                    <FaLinkedinIn />
+                  </div>
+                </a>
+                <a
+                  href="https://github.com/Jagan-creator"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div className="rounded-full shadow-md shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-300 mr-8">
+                    <FaGithub />
+                  </div>
+                </a>
+                <a href="mailto:joel.hagan.8@gmail.com">
+                  <div className="rounded-full shadow-md shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-300">
+                    <AiOutlineMail />
+                  </div>
+                </a>
               </div>
             </div>
           </div>
