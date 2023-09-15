@@ -28,32 +28,28 @@ const jungle = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Turpis
-            cursus in hac habitasse platea dictumst quisque. Nec ullamcorper sit
-            amet risus nullam eget felis. Consectetur adipiscing elit
-            pellentesque habitant morbi. Egestas tellus rutrum tellus
-            pellentesque eu. Non diam phasellus vestibulum lorem sed. Faucibus a
-            pellentesque sit amet porttitor eget dolor morbi non. Consequat ac
-            felis donec et odio pellentesque diam. Mi tempus imperdiet nulla
-            malesuada pellentesque. A diam sollicitudin tempor id eu nisl nunc
-            mi. Ultrices eros in cursus turpis massa tincidunt dui. Non blandit
-            massa enim nec. Ut enim blandit volutpat maecenas volutpat blandit
-            aliquam etiam. Elementum integer enim neque volutpat ac tincidunt
-            vitae semper quis. Risus ultricies tristique nulla aliquet enim
-            tortor at auctor urna. Molestie ac feugiat sed lectus vestibulum
-            mattis ullamcorper velit. Vivamus at augue eget arcu dictum varius
-            duis. Odio pellentesque diam volutpat commodo sed. Porta nibh
-            venenatis cras sed felis eget velit aliquet sagittis. Quisque
-            egestas diam in arcu cursus euismod quis. Congue eu consequat ac
-            felis donec et. Id porta nibh venenatis cras sed. Eget nunc lobortis
-            mattis aliquam faucibus purus in massa tempor. Libero nunc consequat
-            interdum varius sit. Facilisi nullam vehicula ipsum a. Volutpat
-            consequat mauris nunc congue nisi vitae suscipit tellus mauris.
-            Quisque non tellus orci ac auctor augue. Purus sit amet luctus
-            venenatis. Egestas congue quisque egestas diam. Semper auctor neque
-            vitae tempus quam pellentesque nec. Sed euismod nisi porta lorem
-            mollis.
+            Jungle is a multifaceted mini e-commerce application, meticulously
+            constructed using the powerful Ruby on Rails 6.1 framework. Beyond
+            its core function of facilitating online shopping, Jungle stands out
+            as an invaluable educational resource, offering a hands-on,
+            real-world example of building a web application with Rails. One of
+            Jungle's standout features is its seamless integration of Stripe for
+            payment processing. Users can easily set up their Stripe accounts
+            and configure the necessary test keys within the '.env' file,
+            enhancing the application's functionality. To bring Jungle to life,
+            a simple 'bin/rails s -b 0.0.0.0' command launches the server. Under
+            the hood, Jungle leverages the capabilities of Rails 6.1, pairs them
+            with Bootstrap 5 for an aesthetically pleasing and responsive user
+            interface, relies on PostgreSQL 9.x for a robust database system,
+            and integrates Stripe to offer a secure and efficient payment
+            experience. For testing purposes, Jungle provides a test credit card
+            number (# 4111 1111 1111 1111) to simulate successful transactions,
+            with detailed instructions available in the Stripe testing
+            documentation. In summary, Jungle is a versatile, user-friendly, and
+            educational e-commerce platform that not only simplifies online
+            shopping but also serves as an instructive example for developers
+            eager to dive into the world of Ruby on Rails through hands-on
+            experience.
           </p>
           <a
             href="https://github.com/Jagan-creator/jungle-rails"
