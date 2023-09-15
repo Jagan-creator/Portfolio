@@ -143,7 +143,7 @@ const Navbar = () => {
             </div>
             <div className="border-b border-gray-300 my-4">
               <p className="w-[85%] md:w-[90%] py-4">
-                temporary placeholder text for the time being
+                Building Digital Solutions Together
               </p>
             </div>
           </div>
