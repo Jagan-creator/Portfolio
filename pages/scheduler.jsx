@@ -28,32 +28,27 @@ const scheduler = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Turpis
-            cursus in hac habitasse platea dictumst quisque. Nec ullamcorper sit
-            amet risus nullam eget felis. Consectetur adipiscing elit
-            pellentesque habitant morbi. Egestas tellus rutrum tellus
-            pellentesque eu. Non diam phasellus vestibulum lorem sed. Faucibus a
-            pellentesque sit amet porttitor eget dolor morbi non. Consequat ac
-            felis donec et odio pellentesque diam. Mi tempus imperdiet nulla
-            malesuada pellentesque. A diam sollicitudin tempor id eu nisl nunc
-            mi. Ultrices eros in cursus turpis massa tincidunt dui. Non blandit
-            massa enim nec. Ut enim blandit volutpat maecenas volutpat blandit
-            aliquam etiam. Elementum integer enim neque volutpat ac tincidunt
-            vitae semper quis. Risus ultricies tristique nulla aliquet enim
-            tortor at auctor urna. Molestie ac feugiat sed lectus vestibulum
-            mattis ullamcorper velit. Vivamus at augue eget arcu dictum varius
-            duis. Odio pellentesque diam volutpat commodo sed. Porta nibh
-            venenatis cras sed felis eget velit aliquet sagittis. Quisque
-            egestas diam in arcu cursus euismod quis. Congue eu consequat ac
-            felis donec et. Id porta nibh venenatis cras sed. Eget nunc lobortis
-            mattis aliquam faucibus purus in massa tempor. Libero nunc consequat
-            interdum varius sit. Facilisi nullam vehicula ipsum a. Volutpat
-            consequat mauris nunc congue nisi vitae suscipit tellus mauris.
-            Quisque non tellus orci ac auctor augue. Purus sit amet luctus
-            venenatis. Egestas congue quisque egestas diam. Semper auctor neque
-            vitae tempus quam pellentesque nec. Sed euismod nisi porta lorem
-            mollis.
+            Interview Scheduler stands as a feature-rich single-page web
+            application, thoughtfully crafted with React as its cornerstone
+            technology. This platform simplifies the appointment booking process
+            by enabling users to seamlessly schedule appointments with
+            interviewers, taking advantage of a dynamic schedule that reflects
+            real-time availability. Notably, this app doesn't stop at the
+            basics; it goes the extra mile to deliver a polished and
+            user-centric experience. The application's core functionality
+            encompasses an intuitive interface where users can easily spot
+            available days and slots, make, and even cancel appointments.
+            Moreover, it offers advanced features like the ability to edit
+            appointment details, ensuring flexibility and adaptability to
+            changing circumstances. Crucially, Interview Scheduler implements
+            confirmation checks to prevent accidental deletions and error
+            handlers to ensure data integrity, requiring essential information
+            such as student names and chosen interviewers. In summary, Interview
+            Scheduler is not just a functional appointment management tool; it's
+            a showcase of modern web development powered by React, enriched by
+            robust testing practices, and designed to provide a seamless and
+            user-friendly experience for scheduling interviews with ease and
+            confidence.
           </p>
           <a
             href="https://github.com/Jagan-creator/scheduler"
