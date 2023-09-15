@@ -28,32 +28,22 @@ const tweeter = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Turpis
-            cursus in hac habitasse platea dictumst quisque. Nec ullamcorper sit
-            amet risus nullam eget felis. Consectetur adipiscing elit
-            pellentesque habitant morbi. Egestas tellus rutrum tellus
-            pellentesque eu. Non diam phasellus vestibulum lorem sed. Faucibus a
-            pellentesque sit amet porttitor eget dolor morbi non. Consequat ac
-            felis donec et odio pellentesque diam. Mi tempus imperdiet nulla
-            malesuada pellentesque. A diam sollicitudin tempor id eu nisl nunc
-            mi. Ultrices eros in cursus turpis massa tincidunt dui. Non blandit
-            massa enim nec. Ut enim blandit volutpat maecenas volutpat blandit
-            aliquam etiam. Elementum integer enim neque volutpat ac tincidunt
-            vitae semper quis. Risus ultricies tristique nulla aliquet enim
-            tortor at auctor urna. Molestie ac feugiat sed lectus vestibulum
-            mattis ullamcorper velit. Vivamus at augue eget arcu dictum varius
-            duis. Odio pellentesque diam volutpat commodo sed. Porta nibh
-            venenatis cras sed felis eget velit aliquet sagittis. Quisque
-            egestas diam in arcu cursus euismod quis. Congue eu consequat ac
-            felis donec et. Id porta nibh venenatis cras sed. Eget nunc lobortis
-            mattis aliquam faucibus purus in massa tempor. Libero nunc consequat
-            interdum varius sit. Facilisi nullam vehicula ipsum a. Volutpat
-            consequat mauris nunc congue nisi vitae suscipit tellus mauris.
-            Quisque non tellus orci ac auctor augue. Purus sit amet luctus
-            venenatis. Egestas congue quisque egestas diam. Semper auctor neque
-            vitae tempus quam pellentesque nec. Sed euismod nisi porta lorem
-            mollis.
+            Tweeter is a sleek single-page application, offering a streamlined
+            Twitter-like experience. Its core feature allows users to post
+            tweets in real-time, all powered by jQuery for a responsive and
+            intuitive interface. What sets Tweeter apart is its animated error
+            handling, providing clear guidance when users encounter specific
+            criteria violations, enhancing usability. Tweeter goes the extra
+            mile with engaging hover effects on icons, images, and text, making
+            user interactions delightful. Each tweet has a character limit of
+            140, reminiscent of Twitter's charm, and all tweets are securely
+            stored in the server's database, ensuring data persistence and
+            integrity. Whether you're accessing Tweeter on a desktop or mobile
+            device, the layout seamlessly adapts to different screen sizes,
+            ensuring a consistent and enjoyable user experience. Powered by
+            Express and Node.js, Tweeter is an excellent platform for web
+            development exploration, offering a polished Twitter-like experience
+            with a touch of sophistication and interactivity.
           </p>
           <a
             href="https://github.com/Jagan-creator/tweeter"
