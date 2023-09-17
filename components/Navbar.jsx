@@ -5,6 +5,7 @@ import { AiOutlineClose, AiOutlineMenu, AiOutlineMail } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { useRouter } from "next/router";
+import joelLogo from "../public/assets/joel-main-logo.png";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -55,7 +56,7 @@ const Navbar = () => {
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         <Link href="/">
           <Image
-            src="/../public/assets/joel-main-logo.png"
+            src={joelLogo}
             alt="/"
             width="150"
             height="75"
@@ -128,7 +129,7 @@ const Navbar = () => {
                 href="/"
               >
                 <Image
-                  src="/../public/assets/joel-main-logo.png"
+                  src={joelLogo}
                   width={87}
                   height={35}
                   alt="/"
