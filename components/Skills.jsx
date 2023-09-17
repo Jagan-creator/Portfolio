@@ -10,7 +10,7 @@ import rubyImg from "../public/assets/skills/ruby-icon.png";
 import nodeImg from "../public/assets/skills/node-icon.webp";
 import expressImg from "../public/assets/skills/express-icon.png";
 import postgresqlImg from "../public/assets/skills/postgreSQL-icon.png";
-import gitImg from "../public/assets/skills/Git-icon.png";
+import gitImg from "../public/assets/skills/git-icon.png";
 import photoshopImg from "../public/assets/skills/photoshop-icon.png";
 
 const Skills = () => {
