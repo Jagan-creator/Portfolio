@@ -1,5 +1,17 @@
 import React from "react";
 import Image from "next/image";
+import htmlImg from "../public/assets/skills/html5-icon.png";
+import sassImg from "../public/assets/skills/sass-icon.png";
+import tailwindImg from "../public/assets/skills/tailwind-icon.webp";
+import javascriptImg from "../public/assets/skills/javascript-icon.png";
+import jqueryImg from "../public/assets/skills/jQuery-icon.png";
+import reactImg from "../public/assets/skills/react-icon.png";
+import rubyImg from "../public/assets/skills/ruby-icon.png";
+import nodeImg from "../public/assets/skills/node-icon.webp";
+import expressImg from "../public/assets/skills/express-icon.png";
+import postgresqlImg from "../public/assets/skills/postgreSQL-icon.png";
+import gitImg from "../public/assets/skills/Git-icon.png";
+import photoshopImg from "../public/assets/skills/photoshop-icon.png";
 
 const Skills = () => {
   return (
@@ -17,7 +29,7 @@ const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src="/../public/assets/skills/html5-icon.png"
+                  src={htmlImg}
                   width="64"
                   height="64"
                   alt="/"
@@ -32,7 +44,7 @@ const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src="/../public/assets/skills/sass-icon.png"
+                  src={sassImg}
                   width="64"
                   height="64"
                   alt="/"
@@ -47,7 +59,7 @@ const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src="/../public/assets/skills/tailwind-icon.webp"
+                  src={tailwindImg}
                   width="64"
                   height="64"
                   alt="/"
@@ -62,7 +74,7 @@ const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src="/../public/assets/skills/javascript-icon.png"
+                  src={javascriptImg}
                   width="50"
                   height="50"
                   alt="/"
@@ -77,7 +89,7 @@ const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src="/../public/assets/skills/jQuery-icon.png"
+                  src={jqueryImg}
                   width="50"
                   height="50"
                   alt="/"
@@ -92,7 +104,7 @@ const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src="/../public/assets/skills/react-icon.png"
+                  src={reactImg}
                   width="64"
                   height="64"
                   alt="/"
@@ -107,7 +119,7 @@ const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src="/../public/assets/skills/ruby-icon.png"
+                  src={rubyImg}
                   width="50"
                   height="50"
                   alt="/"
@@ -122,7 +134,7 @@ const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src="/../public/assets/skills/node-icon.webp"
+                  src={nodeImg}
                   width="64"
                   height="64"
                   alt="/"
@@ -137,7 +149,7 @@ const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src="/../public/assets/skills/express-icon.png"
+                  src={expressImg}
                   width="64"
                   height="64"
                   alt="/"
@@ -152,7 +164,7 @@ const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src="/../public/assets/skills/postgreSQL-icon.png"
+                  src={postgresqlImg}
                   width="55"
                   height="55"
                   alt="/"
@@ -167,7 +179,7 @@ const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src="/../public/assets/skills/Git-icon.png"
+                  src={gitImg}
                   width="64"
                   height="64"
                   alt="/"
@@ -182,7 +194,7 @@ const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src="/../public/assets/skills/photoshop-icon.png"
+                  src={photoshopImg}
                   width="55"
                   height="55"
                   alt="/"
