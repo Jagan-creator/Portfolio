@@ -1,11 +1,53 @@
 import Link from "next/link";
-import React from "react";
+import React, { useState } from "react";
 import { AiOutlineMail } from "react-icons/ai";
-import { BsFillPersonLinesFill } from "react-icons/bs";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
 
 function Contact() {
+  const [formData, setFormData] = useState({
+    name: "",
+    phoneNumber: "",
+    email: "",
+    subject: "",
+    message: "",
+  });
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    try {
+      const response = await fetch("https://eok0no46zh1hooe.m.pipedream.net", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formData),
+      });
+
+      if (response.ok) {
+        alert("Your submission has been received!");
+        setFormData({
+          name: "",
+          phoneNumber: "",
+          email: "",
+          subject: "",
+          message: "",
+        });
+      } else {
+        alert("Message sending failed. Please try again later.");
+      }
+    } catch (error) {
+      console.error("Error sending message:", error);
+      alert("An error occurred while sending the message.");
+    }
+  };
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({ ...formData, [name]: value });
+  };
+
   return (
     <div
       id="contact"
@@ -68,13 +110,16 @@ function Contact() {
           {/* right */}
           <div className="col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4">
             <div className="p-4">
-              <form>
+              <form onSubmit={handleSubmit}>
                 <div className="grid md:grid-cols-2 gap-4 w-full py-2">
                   <div className="flex flex-col">
                     <label className="uppercase text-sm py-2">Name</label>
                     <input
                       className="border-2 rounded-lg p-3 flex border-gray-300"
                       type="text"
+                      name="name"
+                      value={formData.name}
+                      onChange={handleChange}
                     />
                   </div>
                   <div className="flex flex-col">
@@ -84,6 +129,9 @@ function Contact() {
                     <input
                       className="border-2 rounded-lg p-3 flex border-gray-300"
                       type="text"
+                      name="phoneNumber"
+                      value={formData.phoneNumber}
+                      onChange={handleChange}
                     />
                   </div>
                 </div>
@@ -92,6 +140,9 @@ function Contact() {
                   <input
                     className="border-2 rounded-lg p-3 flex border-gray-300"
                     type="email"
+                    name="email"
+                    value={formData.email}
+                    onChange={handleChange}
                   />
                 </div>
                 <div className="flex flex-col py-2">
@@ -99,6 +150,9 @@ function Contact() {
                   <input
                     className="border-2 rounded-lg p-3 flex border-gray-300"
                     type="text"
+                    name="subject"
+                    value={formData.subject}
+                    onChange={handleChange}
                   />
                 </div>
                 <div className="flex flex-col py-2">
@@ -106,9 +160,15 @@ function Contact() {
                   <textarea
                     className="border-2 rounded-lg p-3 border-gray-300"
                     rows="7"
+                    name="message"
+                    value={formData.message}
+                    onChange={handleChange}
                   ></textarea>
                 </div>
-                <button className="w-full p-4 text-gray-100 mt-4 cursor-pointer hover:scale-105 ease-in duration-300">
+                <button
+                  className="w-full p-4 text-gray-100 mt-4 cursor-pointer hover:scale-105 ease-in duration-300 shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#f0a10e] to-[#ffd771]"
+                  type="submit"
+                >
                   Send
                 </button>
               </form>
