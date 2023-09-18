@@ -103,7 +103,7 @@ function Contact() {
       id="contact"
       className="w-full lg:h-screen"
     >
-      <div className="max-w-[1240px] m-auto px-2 py-24 w-full">
+      <div className="max-w-[1240px] m-auto px-2 py-24 w-full px-8">
         <p className="text-xl tracking-widest uppercase text-[#f0a10e]">
           Contact
         </p>
@@ -111,7 +111,7 @@ function Contact() {
         <div className="grid lg:grid-cols-5 gap-8">
           {/* left */}
           <div className="col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4">
-            <div className="lg:p-4 h-full">
+            <div className="lg:p-4 h-full px-4 py-4">
               <div>
                 <img
                   className="rounded-xl hover:scale-105 ease-in duration-300"

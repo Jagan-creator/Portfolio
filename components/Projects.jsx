@@ -11,7 +11,7 @@ function Projects() {
       id="projects"
       className="w-full"
     >
-      <div className="max-w-[1240px] mx-auto px-2 py-24">
+      <div className="max-w-[1240px] mx-auto px-2 py-24 px-8">
         <p className="text-xl tracking-widest uppercase text-[#f0a10e]">
           Projects
         </p>
