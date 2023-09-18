@@ -103,7 +103,7 @@ function Contact() {
       id="contact"
       className="w-full lg:h-screen"
     >
-      <div className="max-w-[1240px] m-auto px-2 py-24 w-full px-8">
+      <div className="max-w-[1240px] m-auto py-24 w-full px-8">
         <p className="text-xl tracking-widest uppercase text-[#f0a10e]">
           Contact
         </p>
