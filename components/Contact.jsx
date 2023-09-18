@@ -66,13 +66,36 @@ function Contact() {
   };
 
   const isPhoneNumberValid = (phoneNumber) => {
-    const phoneRegex = /^[0-9]{10}$/;
+    const phoneRegex = /^[0-9]{3}(-[0-9]{3})?(-[0-9]{4})?$/;
     return phoneRegex.test(phoneNumber);
   };
 
   const handleChange = (e) => {
     const { name, value } = e.target;
-    setFormData({ ...formData, [name]: value });
+
+    if (name === "phoneNumber") {
+      const cleanedValue = value.replace(/\D/g, "");
+
+      let formattedValue = "";
+
+      if (cleanedValue.length >= 3) {
+        formattedValue = cleanedValue.substring(0, 3);
+      }
+
+      if (cleanedValue.length >= 6) {
+        formattedValue += "-" + cleanedValue.substring(3, 6);
+      } else {
+        formattedValue = cleanedValue;
+      }
+
+      if (cleanedValue.length > 6) {
+        formattedValue += "-" + cleanedValue.substring(6, 10);
+      }
+
+      setFormData({ ...formData, [name]: formattedValue });
+    } else {
+      setFormData({ ...formData, [name]: value });
+    }
   };
 
   return (
