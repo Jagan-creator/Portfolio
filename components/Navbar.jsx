@@ -58,8 +58,8 @@ const Navbar = () => {
           <Image
             src={joelLogo}
             alt="/"
-            width="150"
-            height="75"
+            width="100"
+            height="50"
           />
         </Link>
         <div>
