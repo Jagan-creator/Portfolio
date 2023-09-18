@@ -13,8 +13,17 @@ function Contact() {
     message: "",
   });
 
+  const [error, setError] = useState("");
+
   const handleSubmit = async (e) => {
     e.preventDefault();
+
+    if (!isEmailValid(formData.email)) {
+      setError("Please enter a valid email address.");
+      return;
+    } else {
+      setError("");
+    }
 
     try {
       const response = await fetch("https://eok0no46zh1hooe.m.pipedream.net", {
@@ -41,6 +50,11 @@ function Contact() {
       console.error("Error sending message:", error);
       alert("An error occurred while sending the message.");
     }
+  };
+
+  const isEmailValid = (email) => {
+    const emailRegex = /^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$/;
+    return emailRegex.test(email);
   };
 
   const handleChange = (e) => {
@@ -139,11 +153,12 @@ function Contact() {
                   <label className="uppercase text-sm py-2">Email</label>
                   <input
                     className="border-2 rounded-lg p-3 flex border-gray-300"
-                    type="email"
+                    type="text"
                     name="email"
                     value={formData.email}
                     onChange={handleChange}
                   />
+                  {error && <p className="text-red-500">{error}</p>}
                 </div>
                 <div className="flex flex-col py-2">
                   <label className="uppercase text-sm py-2">Subject</label>
