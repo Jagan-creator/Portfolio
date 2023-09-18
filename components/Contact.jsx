@@ -13,16 +13,24 @@ function Contact() {
     message: "",
   });
 
-  const [error, setError] = useState("");
+  const [phoneNumberError, setPhoneNumberError] = useState("");
+  const [emailError, setEmailError] = useState("");
 
   const handleSubmit = async (e) => {
     e.preventDefault();
 
     if (!isEmailValid(formData.email)) {
-      setError("Please enter a valid email address.");
+      setEmailError("Please enter a valid email address.");
       return;
     } else {
-      setError("");
+      setEmailError("");
+    }
+
+    if (!isPhoneNumberValid(formData.phoneNumber)) {
+      setPhoneNumberError("Please enter a valid phone number.");
+      return;
+    } else {
+      setPhoneNumberError("");
     }
 
     try {
@@ -55,6 +63,11 @@ function Contact() {
   const isEmailValid = (email) => {
     const emailRegex = /^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$/;
     return emailRegex.test(email);
+  };
+
+  const isPhoneNumberValid = (phoneNumber) => {
+    const phoneRegex = /^[0-9]{10}$/;
+    return phoneRegex.test(phoneNumber);
   };
 
   const handleChange = (e) => {
@@ -147,6 +160,9 @@ function Contact() {
                       value={formData.phoneNumber}
                       onChange={handleChange}
                     />
+                    {phoneNumberError && (
+                      <p className="text-red-500">{phoneNumberError}</p>
+                    )}
                   </div>
                 </div>
                 <div className="flex flex-col py-2">
@@ -158,7 +174,7 @@ function Contact() {
                     value={formData.email}
                     onChange={handleChange}
                   />
-                  {error && <p className="text-red-500">{error}</p>}
+                  {emailError && <p className="text-red-500">{emailError}</p>}
                 </div>
                 <div className="flex flex-col py-2">
                   <label className="uppercase text-sm py-2">Subject</label>
