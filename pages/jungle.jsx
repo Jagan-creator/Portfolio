@@ -27,7 +27,7 @@ const jungle = () => {
         <div className="col-span-4">
           <p>Project</p>
           <h2>Overview</h2>
-          <p>
+          <p className="py-4">
             Jungle is a multifaceted mini e-commerce application, meticulously
             constructed using the powerful Ruby on Rails 6.1 framework. Beyond
             its core function of facilitating online shopping, Jungle stands out

@@ -27,7 +27,7 @@ const tweeter = () => {
         <div className="col-span-4">
           <p>Project</p>
           <h2>Overview</h2>
-          <p>
+          <p className="py-4">
             Tweeter is a sleek single-page application, offering a streamlined
             Twitter-like experience. Its core feature allows users to post
             tweets in real-time, all powered by jQuery for a responsive and

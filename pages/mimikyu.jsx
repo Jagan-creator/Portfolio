@@ -27,7 +27,7 @@ const mimikyu = () => {
         <div className="col-span-4">
           <p>Project</p>
           <h2>Overview</h2>
-          <p>
+          <p className="py-4">
             Welcome to Mimikyu's Day Off, our final group project developed at
             Lighthouse Labs! This Pokemon-themed roguelite-style game invites
             you to join Mimikyu on a thrilling adventure during his day off,

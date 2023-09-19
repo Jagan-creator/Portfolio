@@ -27,7 +27,7 @@ const scheduler = () => {
         <div className="col-span-4">
           <p>Project</p>
           <h2>Overview</h2>
-          <p>
+          <p className="py-4">
             Interview Scheduler stands as a feature-rich single-page web
             application, thoughtfully crafted with React as its cornerstone
             technology. This platform simplifies the appointment booking process
