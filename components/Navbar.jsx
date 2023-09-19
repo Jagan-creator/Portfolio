@@ -235,7 +235,7 @@ const Navbar = () => {
                     <AiOutlineMail />
                   </div>
                 </a>
-                <a href="mailto:joel.hagan.8@gmail.com">
+                <a href="https://resume.creddle.io/resume/5wh3kh8ktcc">
                   <div className="rounded-full shadow-md shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-300 mr-8">
                     <RiFilePaper2Line />
                   </div>
