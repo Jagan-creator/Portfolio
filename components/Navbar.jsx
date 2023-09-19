@@ -6,6 +6,7 @@ import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { useRouter } from "next/router";
 import joelLogo from "../public/assets/joel-main-logo.png";
+import { RiFilePaper2Line } from "react-icons/ri";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -230,8 +231,13 @@ const Navbar = () => {
                   </div>
                 </a>
                 <a href="mailto:joel.hagan.8@gmail.com">
-                  <div className="rounded-full shadow-md shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-300">
+                  <div className="rounded-full shadow-md shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-300 mr-8">
                     <AiOutlineMail />
+                  </div>
+                </a>
+                <a href="mailto:joel.hagan.8@gmail.com">
+                  <div className="rounded-full shadow-md shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-300 mr-8">
+                    <RiFilePaper2Line />
                   </div>
                 </a>
               </div>
