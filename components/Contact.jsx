@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import { AiOutlineMail } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
+import { RiFilePaper2Line } from "react-icons/ri";
 
 function Contact() {
   const [formData, setFormData] = useState({
@@ -135,23 +136,32 @@ function Contact() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 mr-8">
+                    <div className="rounded-full shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-110 ease-in duration-300 mr-8">
                       <FaLinkedinIn />
                     </div>
+                    <p className="text-xs text-gray-700 py-4 px-1">LinkedIn</p>
                   </a>
                   <a
                     href="https://github.com/Jagan-creator"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 mr-8">
+                    <div className="rounded-full shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-110 ease-in duration-300 mr-8">
                       <FaGithub />
                     </div>
+                    <p className="text-xs text-gray-700 py-4 px-2">GitHub</p>
                   </a>
                   <a href="mailto:joel.hagan.8@gmail.com">
-                    <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                    <div className="rounded-full shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-110 ease-in duration-300 mr-8">
                       <AiOutlineMail />
                     </div>
+                    <p className="text-xs text-gray-700 py-4 px-3">Email</p>
+                  </a>
+                  <a href="https://resume.creddle.io/resume/5wh3kh8ktcc">
+                    <div className="rounded-full shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-110 ease-in duration-300">
+                      <RiFilePaper2Line />
+                    </div>
+                    <p className=" text-xs text-gray-700 py-4 px-1">Resume</p>
                   </a>
                 </div>
               </div>

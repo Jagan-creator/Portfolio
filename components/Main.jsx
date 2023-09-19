@@ -2,6 +2,7 @@ import React from "react";
 import { AiOutlineMail } from "react-icons/ai";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
+import { RiFilePaper2Line } from "react-icons/ri";
 
 const Main = () => {
   return (
@@ -34,6 +35,7 @@ const Main = () => {
               <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 mr-8">
                 <FaLinkedinIn />
               </div>
+              <p className=" text-xs text-gray-700 mr-8 py-4">LinkedIn</p>
             </a>
             <a
               href="https://github.com/Jagan-creator"
@@ -43,11 +45,19 @@ const Main = () => {
               <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 mr-8">
                 <FaGithub />
               </div>
+              <p className=" text-xs text-gray-700 mr-8 py-4">GitHub</p>
             </a>
             <a href="mailto:joel.hagan.8@gmail.com">
-              <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+              <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 mr-8">
                 <AiOutlineMail />
               </div>
+              <p className=" text-xs text-gray-700 mr-8 py-4">Email</p>
+            </a>
+            <a href="https://resume.creddle.io/resume/5wh3kh8ktcc">
+              <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                <RiFilePaper2Line />
+              </div>
+              <p className=" text-xs text-gray-700 py-4">Resume</p>
             </a>
           </div>
         </div>
