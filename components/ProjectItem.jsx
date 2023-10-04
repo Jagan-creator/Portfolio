@@ -6,7 +6,7 @@ const ProjectItem = ({ title, backgroundImg, projectUrl, framework }) => {
   return (
     <div className="relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl p-3 group hover:bg-gradient-to-r from-[#f0a10e] to-[#ffd771]">
       <Image
-        className="rounded-xl group-hover:opacity-40 h-[310px]"
+        className="rounded-xl group-hover:opacity-40 h-[290px]"
         src={backgroundImg}
         alt="/"
       />
