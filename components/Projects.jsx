@@ -4,6 +4,7 @@ import mimikyuImg from "../public/assets/projects/mimikyu-day-off-preview.png";
 import jungleImg from "../public/assets/projects/jungle-preview.jpeg";
 import schedulerImg from "../public/assets/projects/scheduler-preview.png";
 import tweeterImg from "../public/assets/projects/tweeter-preview.png";
+import viteDashImg from "../public/assets/projects/vite-dash-preview.png";
 
 function Projects() {
   return (
@@ -40,6 +41,12 @@ function Projects() {
             backgroundImg={tweeterImg}
             framework="Javascript / CSS / jQuery"
             projectUrl="/tweeter"
+          />
+          <ProjectItem
+            title="Vite Dash"
+            backgroundImg={viteDashImg}
+            framework="Next.js / Vite / Tremor"
+            projectUrl="/viteDash"
           />
         </div>
       </div>
