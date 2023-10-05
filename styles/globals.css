@@ -31,3 +31,14 @@ html {
     @apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#f0a10e] to-[#ffd771] text-white
   }
 }
+
+.img-container {
+  transform: translateX(-100%);
+  opacity: 0;
+  transition: transform 0.8s ease-in, opacity 0.5s ease-in;
+}
+
+.slide-in {
+  transform: translateX(0);
+  opacity: 1;
+}
