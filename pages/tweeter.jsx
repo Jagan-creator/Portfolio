@@ -27,24 +27,26 @@ const tweeter = () => {
         <div className="col-span-4">
           <p>Project</p>
           <h2>Overview</h2>
-          <p className="py-4">
-            Tweeter is a sleek single-page application, offering a streamlined
-            Twitter-like experience. Its core feature allows users to post
-            tweets in real-time, all powered by jQuery for a responsive and
-            intuitive interface. What sets Tweeter apart is its animated error
-            handling, providing clear guidance when users encounter specific
-            criteria violations, enhancing usability. Tweeter goes the extra
-            mile with engaging hover effects on icons, images, and text, making
-            user interactions delightful. Each tweet has a character limit of
-            140, reminiscent of Twitter's charm, and all tweets are securely
-            stored in the server's database, ensuring data persistence and
-            integrity. Whether you're accessing Tweeter on a desktop or mobile
-            device, the layout seamlessly adapts to different screen sizes,
-            ensuring a consistent and enjoyable user experience. Powered by
-            Express and Node.js, Tweeter is an excellent platform for web
-            development exploration, offering a polished Twitter-like experience
-            with a touch of sophistication and interactivity.
-          </p>
+          <ul className="py-4">
+            <p className="text-gray-600 py-2 flex items-center">
+              <RiRadioButtonFill className="p-1" />
+              Modern and elegant social media web app that allows users to make
+              creative posts
+            </p>
+            <p className="text-gray-600 py-2 flex items-center">
+              <RiRadioButtonFill className="p-1" />
+              Heavy focus on simplistic styling for users to navigate
+            </p>
+            <p className="text-gray-600 py-2 flex items-center">
+              <RiRadioButtonFill className="p-1" />
+              Mobile layouts are thoroughly functional with this application
+            </p>
+            <p className="text-gray-600 py-2 flex items-center">
+              <RiRadioButtonFill className="p-1" />
+              Responsive design to update users with critical information as
+              they interact with Tweeter
+            </p>
+          </ul>
           <a
             href="https://github.com/Jagan-creator/tweeter"
             target="_blank"
