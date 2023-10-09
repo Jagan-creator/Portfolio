@@ -19,7 +19,7 @@ const Main = () => {
           </h1>
           <h1 className="py-2 text-gray-700">A Full-Stack Developer</h1>
           <p className="py-4 text-gray-600 max-width-[70%] m-auto">
-            As an inspired full-stack web developer I aim to seamlessly blend
+            As an inspired full-stack developer I aim to seamlessly blend
             creativity and technical expertise. It's about crafting engaging
             user interfaces and robust back-end systems. I thrive on innovation,
             adapting to new technologies, and delivering solutions that empower
