@@ -27,30 +27,24 @@ const jungle = () => {
         <div className="col-span-4">
           <p>Project</p>
           <h2>Overview</h2>
-          <p className="py-4">
-            Jungle is a multifaceted mini e-commerce application, meticulously
-            constructed using the powerful Ruby on Rails 6.1 framework. Beyond
-            its core function of facilitating online shopping, Jungle stands out
-            as an invaluable educational resource, offering a hands-on,
-            real-world example of building a web application with Rails. One of
-            Jungle's standout features is its seamless integration of Stripe for
-            payment processing. Users can easily set up their Stripe accounts
-            and configure the necessary test keys within the '.env' file,
-            enhancing the application's functionality. To bring Jungle to life,
-            a simple 'bin/rails s -b 0.0.0.0' command launches the server. Under
-            the hood, Jungle leverages the capabilities of Rails 6.1, pairs them
-            with Bootstrap 5 for an aesthetically pleasing and responsive user
-            interface, relies on PostgreSQL 9.x for a robust database system,
-            and integrates Stripe to offer a secure and efficient payment
-            experience. For testing purposes, Jungle provides a test credit card
-            number (# 4111 1111 1111 1111) to simulate successful transactions,
-            with detailed instructions available in the Stripe testing
-            documentation. In summary, Jungle is a versatile, user-friendly, and
-            educational e-commerce platform that not only simplifies online
-            shopping but also serves as an instructive example for developers
-            eager to dive into the world of Ruby on Rails through hands-on
-            experience.
-          </p>
+          <ul className="py-4">
+            <p className="text-gray-600 py-2 flex items-center">
+              <RiRadioButtonFill className="p-1" />
+              Entirely functional e-commerce web app
+            </p>
+            <p className="text-gray-600 py-2 flex items-center">
+              <RiRadioButtonFill className="p-1" />
+              Authentic payment verification and processing used during checkout
+            </p>
+            <p className="text-gray-600 py-2 flex items-center">
+              <RiRadioButtonFill className="p-1" />
+              Live updating of stock availability on various items
+            </p>
+            <p className="text-gray-600 py-2 flex items-center">
+              <RiRadioButtonFill className="p-1" />
+              Modern and visually appealing styles used throughout the app
+            </p>
+          </ul>
           <a
             href="https://github.com/Jagan-creator/jungle-rails"
             target="_blank"
