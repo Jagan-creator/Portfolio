@@ -3,7 +3,6 @@ import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import { AiOutlineClose, AiOutlineMenu, AiOutlineMail } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
-import { BsFillPersonLinesFill } from "react-icons/bs";
 import { useRouter } from "next/router";
 import joelLogo from "../public/assets/joel-main-logo.png";
 import { RiFilePaper2Line } from "react-icons/ri";
