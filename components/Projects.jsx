@@ -39,7 +39,7 @@ function Projects() {
           <ProjectItem
             title="Tweeter"
             backgroundImg={tweeterImg}
-            framework="Javascript / CSS / jQuery"
+            framework="Javascript / Sass / jQuery"
             projectUrl="/tweeter"
           />
           <ProjectItem
