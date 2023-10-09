@@ -27,7 +27,26 @@ const viteDash = () => {
         <div className="col-span-4">
           <p>Project</p>
           <h2>Overview</h2>
-          <p className="py-4">Description for Vite Dash here.</p>
+          <ul className="py-4">
+            <p className="text-gray-600 py-2 flex items-center">
+              <RiRadioButtonFill className="p-1" />
+              Modern dashboard display with implimentation of cutting edge
+              components
+            </p>
+            <p className="text-gray-600 py-2 flex items-center">
+              <RiRadioButtonFill className="p-1" />
+              Easily applicable to a wide variety of client scenarios
+            </p>
+            <p className="text-gray-600 py-2 flex items-center">
+              <RiRadioButtonFill className="p-1" />
+              Simplistic viewing on both desktop and mobile applications
+            </p>
+            <p className="text-gray-600 py-2 flex items-center">
+              <RiRadioButtonFill className="p-1" />
+              Live updating up of component structure as screen size and shape
+              is manipulated
+            </p>
+          </ul>
           <a
             href="https://github.com/Jagan-creator/vite-dash"
             target="_blank"
@@ -44,35 +63,23 @@ const viteDash = () => {
             <div className="grid grid-cols-3 md:grid-cols-1">
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="p-1" />
+                Next.js
+              </p>
+              <p className="text-gray-600 py-2 flex items-center">
+                <RiRadioButtonFill className="p-1" />
                 JavaScript
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="p-1" />
-                CSS
+                Tailwind
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="p-1" />
-                jQuery
+                Vite
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="p-1" />
-                Node
-              </p>
-              <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="p-1" />
-                Express
-              </p>
-              <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="p-1" />
-                Body Parser
-              </p>
-              <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="p-1" />
-                Chance
-              </p>
-              <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="p-1" />
-                md5
+                Tremor
               </p>
             </div>
           </div>
@@ -83,7 +90,7 @@ const viteDash = () => {
             href="/#projects"
           >
             <div>
-              <div className="rounded-full shadow-lg shadow-gray-400 p-2 cursor-pointer hover:scale-110 ease-in duration-300">
+              <div className="rounded-full shadow-lg shadow-gray-400 p-2 cursor-pointer hover:scale-110 ease-in duration-300 translate-y-[40%]">
                 <IoIosArrowBack
                   className="text-[#f0a10e]"
                   size={30}
