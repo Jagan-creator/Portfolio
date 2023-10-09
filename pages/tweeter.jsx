@@ -102,7 +102,7 @@ const tweeter = () => {
             href="/#projects"
           >
             <div>
-              <div className="rounded-full shadow-lg shadow-gray-400 p-2 cursor-pointer hover:scale-110 ease-in duration-300">
+              <div className="rounded-full shadow-lg shadow-gray-400 p-2 cursor-pointer hover:scale-110 ease-in duration-300 translate-y-[-130%]">
                 <IoIosArrowBack
                   className="text-[#f0a10e]"
                   size={30}
