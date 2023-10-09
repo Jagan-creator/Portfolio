@@ -27,28 +27,26 @@ const mimikyu = () => {
         <div className="col-span-4">
           <p>Project</p>
           <h2>Overview</h2>
-          <p className="py-4">
-            Welcome to Mimikyu's Day Off, our final group project developed at
-            Lighthouse Labs! This Pokemon-themed roguelite-style game invites
-            you to join Mimikyu on a thrilling adventure during his day off,
-            complete with encounters with a clueless thief. In the spirit of
-            roguelite games, each attempt offers new abilities and stat buffs
-            for future runs, making it a unique and challenging experience.
-            Sabrina Wang's art brings this world to life, immersing you in the
-            Pokemon universe. Our dedicated team, including Sabrina Wang, David
-            Sooley, and Joel Hagan, crafted this captivating adventure. The game
-            features a dynamic battle system with various attacks,
-            buffs/debuffs, and healing moves. Customize your loadout by
-            selecting up to 4 moves and unlock more as you progress. Your
-            progress is securely saved, including learned moves, stat upgrades,
-            and achievements, thanks to Auth0 authentication. Enjoy unique
-            touches like dynamic music, a wide array of moves, and a special
-            story ending. Dive into the early development stages and explore our
-            tech stack with React, Node, Next, Prisma, Sass, and Auth0. The game
-            and database are hosted on Vercel, ensuring a seamless gaming
-            experience. Immerse yourself in the world of Mimikyu's Day Off and
-            embark on an exciting journey in the Pokemon universe!
-          </p>
+          <ul className="py-4">
+            <p className="text-gray-600 py-2 flex items-center">
+              <RiRadioButtonFill className="p-1" />
+              Multi-level and fully dynamic dungeon crawler based game
+            </p>
+            <p className="text-gray-600 py-2 flex items-center">
+              <RiRadioButtonFill className="p-1" />
+              Allows for users to save their progression and character moves as
+              they advance
+            </p>
+            <p className="text-gray-600 py-2 flex items-center">
+              <RiRadioButtonFill className="p-1" />
+              Visually appealing graphics for a smooth and modern user
+              experience
+            </p>
+            <p className="text-gray-600 py-2 flex items-center">
+              <RiRadioButtonFill className="p-1" />
+              Fully deployed with database management systems in place
+            </p>
+          </ul>
           <a
             href="https://mimikyus-day-off.vercel.app/"
             target="_blank"
