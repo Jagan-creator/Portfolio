@@ -6,6 +6,7 @@ import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { useRouter } from "next/router";
 import joelLogo from "../public/assets/joel-main-logo.png";
 import { RiFilePaper2Line } from "react-icons/ri";
+import "animate.css";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -71,25 +72,31 @@ const Navbar = () => {
               scroll={false}
               href="/#home"
             >
-              <li className="ml-10 text-sm uppercase hover:border-b">Home</li>
+              <li className="ml-10 text-sm uppercase hover:border-b animate__animated animate__fadeInDown">
+                Home
+              </li>
             </Link>
             <Link
               scroll={false}
               href="/#about"
             >
-              <li className="ml-10 text-sm uppercase hover:border-b">About</li>
+              <li className="ml-10 text-sm uppercase hover:border-b animate__animated animate__fadeInDown">
+                About
+              </li>
             </Link>
             <Link
               scroll={false}
               href="/#skills"
             >
-              <li className="ml-10 text-sm uppercase hover:border-b">Skills</li>
+              <li className="ml-10 text-sm uppercase hover:border-b animate__animated animate__fadeInDown">
+                Skills
+              </li>
             </Link>
             <Link
               scroll={false}
               href="/#projects"
             >
-              <li className="ml-10 text-sm uppercase hover:border-b">
+              <li className="ml-10 text-sm uppercase hover:border-b animate__animated animate__fadeInDown">
                 Projects
               </li>
             </Link>
@@ -97,7 +104,7 @@ const Navbar = () => {
               scroll={false}
               href="/#contact"
             >
-              <li className="ml-10 text-sm uppercase hover:border-b">
+              <li className="ml-10 text-sm uppercase hover:border-b animate__animated animate__fadeInDown">
                 Contact
               </li>
             </Link>
