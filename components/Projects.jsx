@@ -12,7 +12,7 @@ function Projects() {
       id="projects"
       className="w-full"
     >
-      <div className="max-w-[1240px] mx-auto py-24 px-8">
+      <div className="max-w-[1240px] mx-auto py-24 px-14">
         <p className="text-xl tracking-widest uppercase text-[#f0a10e]">
           Projects
         </p>
