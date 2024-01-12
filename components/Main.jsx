@@ -2,6 +2,7 @@ import React from "react";
 import { AiOutlineMail } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { RiFilePaper2Line } from "react-icons/ri";
+import "animate.css";
 
 const Main = () => {
   return (
@@ -14,16 +15,23 @@ const Main = () => {
           <p className="uppercase text-sm tracking-widest text-gray-600">
             CODE CREATE DELIVER
           </p>
-          <h1 className="py-4 text-gray-700">
-            Hi, I'm <span className="text-[#f0a10e]">Joel</span>
+          <h1 className="py-4 text-[#f0a10e] animate__animated animate__fadeInRight">
+            Joel Hagan
           </h1>
-          <h1 className="py-2 text-gray-700">A Full-Stack Developer</h1>
+          <h1
+            className="py-2 text-gray-700 animate__animated animate__fadeInRight"
+            style={{ fontSize: "3rem" }}
+          >
+            Crafting Digital Experiences from Front to Back
+          </h1>
+
           <p className="py-4 text-gray-600 max-width-[70%] m-auto">
-            As an inspired full-stack developer I aim to seamlessly blend
-            creativity and technical expertise. It's about crafting engaging
-            user interfaces and robust back-end systems. I thrive on innovation,
-            adapting to new technologies, and delivering solutions that empower
-            users and businesses in the digital world.
+            As an inspired full-stack developer I aim to blend my creative
+            marketing skills along with acquired technical knowledge. It's about
+            crafting user friendly interfaces and well thought out back-end
+            systems. I strive to better my full-stack ability, adapt to new
+            technologies, and deliver solutions that enable users and businesses
+            in the digital world to find success.
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
             <a
